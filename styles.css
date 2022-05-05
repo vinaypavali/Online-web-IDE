@@ -1,6 +1,5 @@
 body{
-    background-color: #04d9ff;
-    color: #04d9ff;
+    background-color: #152238;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -11,7 +10,7 @@ body{
 .code-editor{
     width: 90vw;
     height: 90vh;
-    background-color: white;
+    background-color: #152238;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     overflow: hidden;
@@ -50,9 +49,11 @@ body{
 }
 
 #result{
-    width:500px;
-    margin-left: 20px;
-    margin-top: 20px;
+    width:600px;
+    background-color: white;
+    border-radius: 5px;
+    margin-left: 10px;
+    margin-top: 10px;
     height: 500px; 
     border: 2px solid #152238;
      
