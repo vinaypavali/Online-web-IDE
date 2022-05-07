@@ -1,5 +1,5 @@
 body{
-    background-color: #152238;
+    background-color: #152245;
     font-family: sans-serif;
     display: flex;
     justify-content: center;
@@ -23,7 +23,7 @@ body{
     color: #04d9ff;
     display: grid;
     grid-template-rows: repeat(3, 1fr);
-    overflow-y: auto ;
+    overflow-y: auto;
 
 }
 
@@ -34,6 +34,7 @@ body{
     color: #04d9ff;
     resize: vertical;
     font-size: 15px;
+    
 
 }
 
