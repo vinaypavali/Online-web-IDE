@@ -4,8 +4,41 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 0px;
 
 }
+
+.navbar{
+    margin: 0;
+    padding: 0;
+    color: #04d9ff;
+    float: left;
+    width: 9%;
+    height: 100%;
+    list-style-type: none;
+    background-color: #153b7d;
+    overflow: auto;
+    border-radius: 5px;
+
+}
+li a{
+    text-decoration: none;
+    color: #04d9ff;
+    display: block;
+    padding: 10px;
+}
+ 
+li a:hover {
+    text-shadow: 0 0 5px  #04d9ff,
+    0 0 15px #04d9ff,
+    0 0 20px #04d9ff,
+    0 0 40px #04d9ff; 
+
+    box-shadow: 0 0 2px  #04d9ff,
+    0 0 5px #04d9ff,
+    0 0 10px #04d9ff,
+    0 0 15px #04d9ff;
+  }
 
 .code-editor{
     width: 90vw;
